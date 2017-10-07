@@ -39,6 +39,7 @@
 		389BA70FC42D6EFB68FCFED8 /* libopencv_gpu.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 389BA7E3197A8D2B6C25A809 /* libopencv_gpu.dylib */; };
 		389BA7E7FCED8494BF823C09 /* libopencv_objdetect.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 389BA6E3796D46F403610F91 /* libopencv_objdetect.2.4.13.dylib */; };
 		389BA7F16E9C79DD3B27A05A /* libopencv_highgui.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 389BA02CB354A4226065923B /* libopencv_highgui.2.4.dylib */; };
+		389BA823FDF04F4058D58878 /* draw_practice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 389BACB01CAD8149EFD78847 /* draw_practice.cpp */; };
 		389BA8ABB8B19CFA3EDC0026 /* libopencv_video.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 389BA4DCD92E51182888938B /* libopencv_video.2.4.13.dylib */; };
 		389BA8DB3ECB9D394C9C5E91 /* libopencv_flann.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 389BADE7668971C2BAC18592 /* libopencv_flann.dylib */; };
 		389BA902F9A39D9E06DB82BC /* libopencv_gpu.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 389BA6CFC34591750FB96389 /* libopencv_gpu.2.4.dylib */; };
@@ -132,6 +133,7 @@
 		389BAC114A442BDCBFEEAF17 /* mouse_practice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mouse_practice.cpp; sourceTree = "<group>"; };
 		389BAC1173CF328DD7801B27 /* libopencv_contrib.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_contrib.dylib; sourceTree = "<group>"; };
 		389BAC5619BCE48D6B60C21D /* libopencv_ocl.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_ocl.2.4.dylib; sourceTree = "<group>"; };
+		389BACB01CAD8149EFD78847 /* draw_practice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = draw_practice.cpp; sourceTree = "<group>"; };
 		389BAD59A8039D5B2702783C /* libopencv_calib3d.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.dylib; sourceTree = "<group>"; };
 		389BAD8E7CBDF7FDFE9F7B36 /* libopencv_gpu.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_gpu.2.4.13.dylib; sourceTree = "<group>"; };
 		389BADBDAF324A6394558508 /* libopencv_ocl.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_ocl.2.4.13.dylib; sourceTree = "<group>"; };
@@ -294,6 +296,7 @@
 				389BA8F82D93BD66652FDEA2 /* trackbar_practice.cpp */,
 				389BA4AFB3A94FF44711B679 /* practice.h */,
 				389BAC114A442BDCBFEEAF17 /* mouse_practice.cpp */,
+				389BACB01CAD8149EFD78847 /* draw_practice.cpp */,
 			);
 			path = opencv_test;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				389BA2F8CDBE20EF5D851CC5 /* main.cpp in Sources */,
 				389BAC939A7CE83E14666A61 /* trackbar_practice.cpp in Sources */,
 				389BABA85834877DA4022D54 /* mouse_practice.cpp in Sources */,
+				389BA823FDF04F4058D58878 /* draw_practice.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
