@@ -1,14 +1,23 @@
 #include "practice.h"
 
+void takePhotos(){
+    VideoCapture vc(0);
+    waitKey(2000);
+    Mat wss;
+
+    vc>>wss;
+    Mat small_wss;
+    resize(wss, small_wss, Size(wss.cols/2, wss.rows/2));
+    imwrite("wss.jpg",  small_wss);
+
+    Mat img = imread("wss.jpg");
+    imshow("a", img);
+    waitKey(0);
+}
 int main(){
     //trackBarTest("cat_small.jpg", "track bar test");
     //mouseTest("cat_small.jpg", "mouse test", 10);
-    Mat img (Size(300, 300), CV_8UC3, Scalar(255, 255, 255));
+    //paintEye();
 
-    drawEllipse(img, Point(150, 150), Size(50, 100), 90, 0, 360, -1, Scalar(0, 0, 0));
-    drawCircle(img, Point(150, 150), 50, -1, Scalar(255, 255, 255));
-    drawCircle(img, Point(150, 150), 25, -1, Scalar(0, 0, 0));
-    namedWindow("ellipse", WINDOW_NORMAL);
-    imshow("ellipse", img);
-    waitKey(0);
+    wave();
 }
